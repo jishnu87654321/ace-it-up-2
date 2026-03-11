@@ -1,0 +1,9 @@
+@echo off
+echo Starting ACE IT UP Backend Server...
+echo.
+cd backend
+echo Installing dependencies (if needed)...
+call npm install
+echo.
+echo Starting server on port 5005...
+call npm run dev
